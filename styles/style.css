@@ -1,0 +1,100 @@
+
+body {
+    font-family: 'Sanchez', serif;
+    background-color: #e2c7c4;
+    color: #fefefe;
+}
+
+h1 {
+    color: #fefefe;
+    size: 1.2rem;
+}
+
+section {
+    display:grid;
+    grid-row:2;
+    justify-content:center;
+    text-align:center;
+}
+
+section#main {
+    margin:auto;
+    padding: 0px;
+    width: 750px;
+    height: 889px;
+    background-image: url(../assets/catoracle.jpg);
+}
+
+section#head {
+    display:flex;
+    padding: 10px 0px 0px 0px;
+    justify-self: center;
+    margin-left: 130px;
+    margin-bottom: -50px;
+}
+
+input {
+    font-family: 'Sanchez', serif;
+    color:#0D1B1E;
+    background-color: #fefefe;
+    margin: 10px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 50px;
+    text-align:center;
+    width:220px;
+}
+
+button {
+    font-family: 'Nothing You Could Do', serif;
+    font-weight:normal;
+    font-size: 1.2rem;
+    color: #fefefe;
+    background-color: #191516;
+    width:70px;
+    padding: 20px;
+    margin: 10px;
+    border: 0px;
+    border-radius:50%;
+    text-align:center;
+    width:min-content;
+}
+
+  #answer-container {
+    width: 150px;
+    height: 50px;
+    margin-top: 535px;
+    justify-content:center;
+    text-align:center;
+    line-height: 2rem;
+  }
+
+  p#answer {
+    color:black;
+    font-family: 'nothing you could do', cursive, serif;
+    font-size: 1.8rem;
+    font-weight:bold;
+    text-transform:lowercase;
+    text-shadow: 
+        1px 1px white,
+        -2px -2px white;
+        /* 2px 2px 3px hotpink, */
+        /* 2px 2px 5px white,
+        -2px -2px 5px white,
+        5px 5px 10px white,
+        -5px -5px 10px white; */
+  }
+
+  p {
+    opacity: 1;
+    transition-duration: 1s;
+    transition-property: opacity;
+  }
+
+  p.fade {
+      opacity:0;
+  }
+
+  .hidden {
+      display:none;
+  }
