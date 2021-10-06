@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Sanchez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/home.css">
+    <title>Ask the Oracle</title>
+</head>
+
+<body>
+    <section id="head">
+        <input type="text" id="question-input" placeholder="what do you wish to know?">
+        <button id="submit-button">ask away</button>
+        <button id="try-again-button" class="hidden">ask again</button>
+    </section>
+    <section id="main">
+        <div id="answer-container">
+            <p id="answer" class="fade"></p>
+        </div>
+    </section>
+
+    <audio id="twinkle" src="./assets/twinkle.mp3"></audio>
+
+    <script type="module" src="./app.js"></script>
+</body>
+</html>
